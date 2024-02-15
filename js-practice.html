@@ -50,6 +50,32 @@
   console.log("Strings on my own")
   let greeting = 'My name is';
   console.log(greeting + " " + name)
+
+  console.log("Using functions")
+
+  // function to make square numbers
+  function makeSquare (theNumb) {
+  let squared = theNumb * theNumb;
+  return squared;
+  }
+  let try01 = makeSquare(3);
+  console.log(try01);
+  let try02 = makeSquare(4);
+  console.log(try02);
+  let try03 = makeSquare(30)
+  console.log(try03);
+
+  // Functions on my own.
+  function makeName (firstName, middleName, lastName) {
+  let names = firstName + " " + middleName + " " + lastName
+  return names
+  }
+  let attempt1 = makeName()
+  console.log(makeName ('Bo', 'Miller', 'Espey'))
+  let attempt2 = makeName()
+  console.log(makeName ('John', 'Pig', 'Pork'))
+  let attempt3 = makeName()
+  console.log(makeName ('Robert', '"Beto"', "O'Rourke"))
   </script>
 </body>
 </html>
